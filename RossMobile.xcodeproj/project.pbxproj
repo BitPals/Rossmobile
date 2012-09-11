@@ -34,6 +34,10 @@
 		AE45BD3415FEAA68008C990E /* LoggedAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BD3315FEAA68008C990E /* LoggedAreaViewController.m */; };
 		AE45BD5315FEB74B008C990E /* RossmanAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BD5215FEB74B008C990E /* RossmanAnnotation.m */; };
 		AE45BD5515FEB93B008C990E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BD5415FEB93B008C990E /* CoreLocation.framework */; };
+		AE45BD6715FEC334008C990E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45BD6315FEC332008C990E /* Default.png */; };
+		AE45BD6815FEC334008C990E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45BD6415FEC332008C990E /* Default@2x.png */; };
+		AE45BD6C15FEC39C008C990E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45BD6B15FEC39C008C990E /* Icon.png */; };
+		AE45BD6E15FEC3A2008C990E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45BD6D15FEC3A2008C990E /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +124,10 @@
 		AE45BD5115FEB74B008C990E /* RossmanAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RossmanAnnotation.h; path = UI/Map/Annotation/RossmanAnnotation.h; sourceTree = "<group>"; };
 		AE45BD5215FEB74B008C990E /* RossmanAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RossmanAnnotation.m; path = UI/Map/Annotation/RossmanAnnotation.m; sourceTree = "<group>"; };
 		AE45BD5415FEB93B008C990E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AE45BD6315FEC332008C990E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AE45BD6415FEC332008C990E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AE45BD6B15FEC39C008C990E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AE45BD6D15FEC3A2008C990E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +157,8 @@
 		AE45BC5D15FE9F54008C990E = {
 			isa = PBXGroup;
 			children = (
+				AE45BD6D15FEC3A2008C990E /* Icon@2x.png */,
+				AE45BD6B15FEC39C008C990E /* Icon.png */,
 				AE45BC7215FE9F54008C990E /* RossMobile */,
 				AE45BC6B15FE9F54008C990E /* Frameworks */,
 				AE45BC6915FE9F54008C990E /* Products */,
@@ -189,6 +199,8 @@
 			children = (
 				AE45BC7B15FE9F55008C990E /* AppDelegate.h */,
 				AE45BC7C15FE9F55008C990E /* AppDelegate.m */,
+				AE45BD6315FEC332008C990E /* Default.png */,
+				AE45BD6415FEC332008C990E /* Default@2x.png */,
 				AE45BC9C15FEA0E9008C990E /* UI */,
 				AE45BC7315FE9F54008C990E /* Supporting Files */,
 				AE45BC9D15FEA0F1008C990E /* Resources */,
@@ -406,6 +418,10 @@
 				AE45BCA715FEA119008C990E /* first@2x.png in Resources */,
 				AE45BCA815FEA119008C990E /* second.png in Resources */,
 				AE45BCA915FEA119008C990E /* second@2x.png in Resources */,
+				AE45BD6715FEC334008C990E /* Default.png in Resources */,
+				AE45BD6815FEC334008C990E /* Default@2x.png in Resources */,
+				AE45BD6C15FEC39C008C990E /* Icon.png in Resources */,
+				AE45BD6E15FEC3A2008C990E /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
