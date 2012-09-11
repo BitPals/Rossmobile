@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE45BC6D15FE9F54008C990E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BC6C15FE9F54008C990E /* UIKit.framework */; };
+		AE45BC6F15FE9F54008C990E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BC6E15FE9F54008C990E /* Foundation.framework */; };
+		AE45BC7115FE9F54008C990E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BC7015FE9F54008C990E /* CoreGraphics.framework */; };
+		AE45BC7715FE9F55008C990E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE45BC7515FE9F55008C990E /* InfoPlist.strings */; };
+		AE45BC7915FE9F55008C990E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BC7815FE9F55008C990E /* main.m */; };
+		AE45BC7D15FE9F55008C990E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BC7C15FE9F55008C990E /* AppDelegate.m */; };
+		AE45BCA615FEA119008C990E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45BCA215FEA119008C990E /* first.png */; };
+		AE45BCA715FEA119008C990E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45BCA315FEA119008C990E /* first@2x.png */; };
+		AE45BCA815FEA119008C990E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45BCA415FEA119008C990E /* second.png */; };
+		AE45BCA915FEA119008C990E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45BCA515FEA119008C990E /* second@2x.png */; };
+		AE45BCC215FEA216008C990E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCC115FEA216008C990E /* CFNetwork.framework */; };
+		AE45BCC415FEA21C008C990E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCC315FEA21C008C990E /* CoreData.framework */; };
+		AE45BCC615FEA222008C990E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCC515FEA222008C990E /* Security.framework */; };
+		AE45BCC815FEA22B008C990E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCC715FEA22B008C990E /* MobileCoreServices.framework */; };
+		AE45BCCA15FEA231008C990E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCC915FEA231008C990E /* SystemConfiguration.framework */; };
+		AE45BCCC15FEA238008C990E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCCB15FEA238008C990E /* libxml2.dylib */; };
+		AE45BCCE15FEA23D008C990E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCCD15FEA23D008C990E /* QuartzCore.framework */; };
+		AE45BCCF15FEA246008C990E /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCB615FEA19E008C990E /* libRestKit.a */; };
+		AE45BCD415FEA327008C990E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BCD315FEA2FE008C990E /* MBProgressHUD.m */; };
+		AE45BCD715FEA412008C990E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BCD615FEA412008C990E /* MapKit.framework */; };
+		AE45BD2315FEA93D008C990E /* WallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BD2215FEA93D008C990E /* WallViewController.m */; };
+		AE45BD2815FEA97E008C990E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BD2715FEA97E008C990E /* MapViewController.m */; };
+		AE45BD2C15FEA9D5008C990E /* VirtualFashionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BD2B15FEA9D5008C990E /* VirtualFashionViewController.m */; };
+		AE45BD3015FEAA2A008C990E /* PromotionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BD2F15FEAA2A008C990E /* PromotionsTableViewController.m */; };
+		AE45BD3415FEAA68008C990E /* LoggedAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BD3315FEAA68008C990E /* LoggedAreaViewController.m */; };
+		AE45BD5315FEB74B008C990E /* RossmanAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45BD5215FEB74B008C990E /* RossmanAnnotation.m */; };
+		AE45BD5515FEB93B008C990E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE45BD5415FEB93B008C990E /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE45BCB515FEA19E008C990E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		AE45BCB715FEA19E008C990E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		AE45BCB915FEA19E008C990E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		AE45BCBB15FEA19E008C990E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		AE45BCBD15FEA19E008C990E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		AE45BCBF15FEA1EB008C990E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE45BC6815FE9F54008C990E /* RossMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RossMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE45BC6C15FE9F54008C990E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE45BC6E15FE9F54008C990E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE45BC7015FE9F54008C990E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE45BC7415FE9F54008C990E /* RossMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RossMobile-Info.plist"; sourceTree = "<group>"; };
+		AE45BC7615FE9F55008C990E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE45BC7815FE9F55008C990E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE45BC7A15FE9F55008C990E /* RossMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RossMobile-Prefix.pch"; sourceTree = "<group>"; };
+		AE45BC7B15FE9F55008C990E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE45BC7C15FE9F55008C990E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE45BCA215FEA119008C990E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = Resources/first.png; sourceTree = "<group>"; };
+		AE45BCA315FEA119008C990E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "Resources/first@2x.png"; sourceTree = "<group>"; };
+		AE45BCA415FEA119008C990E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = Resources/second.png; sourceTree = "<group>"; };
+		AE45BCA515FEA119008C990E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "Resources/second@2x.png"; sourceTree = "<group>"; };
+		AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RossMobile/Frameworks/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		AE45BCC115FEA216008C990E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AE45BCC315FEA21C008C990E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AE45BCC515FEA222008C990E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AE45BCC715FEA22B008C990E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AE45BCC915FEA231008C990E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE45BCCB15FEA238008C990E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		AE45BCCD15FEA23D008C990E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AE45BCD215FEA2FE008C990E /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = RossMobile/Frameworks/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		AE45BCD315FEA2FE008C990E /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = RossMobile/Frameworks/MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		AE45BCD615FEA412008C990E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AE45BD2115FEA93D008C990E /* WallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WallViewController.h; path = UI/Wall/WallViewController.h; sourceTree = "<group>"; };
+		AE45BD2215FEA93D008C990E /* WallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WallViewController.m; path = UI/Wall/WallViewController.m; sourceTree = "<group>"; };
+		AE45BD2615FEA97E008C990E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = UI/Map/MapViewController.h; sourceTree = "<group>"; };
+		AE45BD2715FEA97E008C990E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = UI/Map/MapViewController.m; sourceTree = "<group>"; };
+		AE45BD2A15FEA9D5008C990E /* VirtualFashionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VirtualFashionViewController.h; path = UI/VirtualFashion/VirtualFashionViewController.h; sourceTree = "<group>"; };
+		AE45BD2B15FEA9D5008C990E /* VirtualFashionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VirtualFashionViewController.m; path = UI/VirtualFashion/VirtualFashionViewController.m; sourceTree = "<group>"; };
+		AE45BD2E15FEAA2A008C990E /* PromotionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PromotionsTableViewController.h; path = UI/Promotions/PromotionsTableViewController.h; sourceTree = "<group>"; };
+		AE45BD2F15FEAA2A008C990E /* PromotionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PromotionsTableViewController.m; path = UI/Promotions/PromotionsTableViewController.m; sourceTree = "<group>"; };
+		AE45BD3215FEAA68008C990E /* LoggedAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggedAreaViewController.h; path = UI/LoggedArea/LoggedAreaViewController.h; sourceTree = "<group>"; };
+		AE45BD3315FEAA68008C990E /* LoggedAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggedAreaViewController.m; path = UI/LoggedArea/LoggedAreaViewController.m; sourceTree = "<group>"; };
+		AE45BD5115FEB74B008C990E /* RossmanAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RossmanAnnotation.h; path = UI/Map/Annotation/RossmanAnnotation.h; sourceTree = "<group>"; };
+		AE45BD5215FEB74B008C990E /* RossmanAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RossmanAnnotation.m; path = UI/Map/Annotation/RossmanAnnotation.m; sourceTree = "<group>"; };
+		AE45BD5415FEB93B008C990E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE45BC6515FE9F54008C990E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE45BD5515FEB93B008C990E /* CoreLocation.framework in Frameworks */,
+				AE45BCD715FEA412008C990E /* MapKit.framework in Frameworks */,
+				AE45BCCF15FEA246008C990E /* libRestKit.a in Frameworks */,
+				AE45BCCE15FEA23D008C990E /* QuartzCore.framework in Frameworks */,
+				AE45BCCC15FEA238008C990E /* libxml2.dylib in Frameworks */,
+				AE45BCCA15FEA231008C990E /* SystemConfiguration.framework in Frameworks */,
+				AE45BCC815FEA22B008C990E /* MobileCoreServices.framework in Frameworks */,
+				AE45BCC615FEA222008C990E /* Security.framework in Frameworks */,
+				AE45BCC415FEA21C008C990E /* CoreData.framework in Frameworks */,
+				AE45BCC215FEA216008C990E /* CFNetwork.framework in Frameworks */,
+				AE45BC6D15FE9F54008C990E /* UIKit.framework in Frameworks */,
+				AE45BC6F15FE9F54008C990E /* Foundation.framework in Frameworks */,
+				AE45BC7115FE9F54008C990E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE45BC5D15FE9F54008C990E = {
+			isa = PBXGroup;
+			children = (
+				AE45BC7215FE9F54008C990E /* RossMobile */,
+				AE45BC6B15FE9F54008C990E /* Frameworks */,
+				AE45BC6915FE9F54008C990E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE45BC6915FE9F54008C990E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BC6815FE9F54008C990E /* RossMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE45BC6B15FE9F54008C990E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BD5415FEB93B008C990E /* CoreLocation.framework */,
+				AE45BCD615FEA412008C990E /* MapKit.framework */,
+				AE45BCD115FEA2E6008C990E /* MBProgressHUD */,
+				AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */,
+				AE45BCCD15FEA23D008C990E /* QuartzCore.framework */,
+				AE45BCCB15FEA238008C990E /* libxml2.dylib */,
+				AE45BCC915FEA231008C990E /* SystemConfiguration.framework */,
+				AE45BCC715FEA22B008C990E /* MobileCoreServices.framework */,
+				AE45BCC515FEA222008C990E /* Security.framework */,
+				AE45BCC315FEA21C008C990E /* CoreData.framework */,
+				AE45BCC115FEA216008C990E /* CFNetwork.framework */,
+				AE45BC6C15FE9F54008C990E /* UIKit.framework */,
+				AE45BC6E15FE9F54008C990E /* Foundation.framework */,
+				AE45BC7015FE9F54008C990E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE45BC7215FE9F54008C990E /* RossMobile */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BC7B15FE9F55008C990E /* AppDelegate.h */,
+				AE45BC7C15FE9F55008C990E /* AppDelegate.m */,
+				AE45BC9C15FEA0E9008C990E /* UI */,
+				AE45BC7315FE9F54008C990E /* Supporting Files */,
+				AE45BC9D15FEA0F1008C990E /* Resources */,
+			);
+			path = RossMobile;
+			sourceTree = "<group>";
+		};
+		AE45BC7315FE9F54008C990E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BC7415FE9F54008C990E /* RossMobile-Info.plist */,
+				AE45BC7515FE9F55008C990E /* InfoPlist.strings */,
+				AE45BC7815FE9F55008C990E /* main.m */,
+				AE45BC7A15FE9F55008C990E /* RossMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE45BC9C15FEA0E9008C990E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BD2415FEA942008C990E /* Wall */,
+				AE45BD2D15FEA9FD008C990E /* Promotions */,
+				AE45BD2515FEA95A008C990E /* Map */,
+				AE45BD2915FEA985008C990E /* VirtualFashion */,
+				AE45BD3115FEAA32008C990E /* LoggedArea */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		AE45BC9D15FEA0F1008C990E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BCA215FEA119008C990E /* first.png */,
+				AE45BCA315FEA119008C990E /* first@2x.png */,
+				AE45BCA415FEA119008C990E /* second.png */,
+				AE45BCA515FEA119008C990E /* second@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AE45BCAB15FEA19D008C990E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BCB615FEA19E008C990E /* libRestKit.a */,
+				AE45BCB815FEA19E008C990E /* RestKitTests.octest */,
+				AE45BCBA15FEA19E008C990E /* RestKit.framework */,
+				AE45BCBC15FEA19E008C990E /* RestKitFrameworkTests.octest */,
+				AE45BCBE15FEA19E008C990E /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE45BCD115FEA2E6008C990E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BCD215FEA2FE008C990E /* MBProgressHUD.h */,
+				AE45BCD315FEA2FE008C990E /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		AE45BD2415FEA942008C990E /* Wall */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BD2115FEA93D008C990E /* WallViewController.h */,
+				AE45BD2215FEA93D008C990E /* WallViewController.m */,
+			);
+			name = Wall;
+			sourceTree = "<group>";
+		};
+		AE45BD2515FEA95A008C990E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BD5015FEB71F008C990E /* Annotation */,
+				AE45BD2615FEA97E008C990E /* MapViewController.h */,
+				AE45BD2715FEA97E008C990E /* MapViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		AE45BD2915FEA985008C990E /* VirtualFashion */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BD2A15FEA9D5008C990E /* VirtualFashionViewController.h */,
+				AE45BD2B15FEA9D5008C990E /* VirtualFashionViewController.m */,
+			);
+			name = VirtualFashion;
+			sourceTree = "<group>";
+		};
+		AE45BD2D15FEA9FD008C990E /* Promotions */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BD2E15FEAA2A008C990E /* PromotionsTableViewController.h */,
+				AE45BD2F15FEAA2A008C990E /* PromotionsTableViewController.m */,
+			);
+			name = Promotions;
+			sourceTree = "<group>";
+		};
+		AE45BD3115FEAA32008C990E /* LoggedArea */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BD3215FEAA68008C990E /* LoggedAreaViewController.h */,
+				AE45BD3315FEAA68008C990E /* LoggedAreaViewController.m */,
+			);
+			name = LoggedArea;
+			sourceTree = "<group>";
+		};
+		AE45BD5015FEB71F008C990E /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				AE45BD5115FEB74B008C990E /* RossmanAnnotation.h */,
+				AE45BD5215FEB74B008C990E /* RossmanAnnotation.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE45BC6715FE9F54008C990E /* RossMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE45BC9415FE9F55008C990E /* Build configuration list for PBXNativeTarget "RossMobile" */;
+			buildPhases = (
+				AE45BC6415FE9F54008C990E /* Sources */,
+				AE45BC6515FE9F54008C990E /* Frameworks */,
+				AE45BC6615FE9F54008C990E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE45BCC015FEA1EB008C990E /* PBXTargetDependency */,
+			);
+			name = RossMobile;
+			productName = RossMobile;
+			productReference = AE45BC6815FE9F54008C990E /* RossMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE45BC5F15FE9F54008C990E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = AE45BC6215FE9F54008C990E /* Build configuration list for PBXProject "RossMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE45BC5D15FE9F54008C990E;
+			productRefGroup = AE45BC6915FE9F54008C990E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AE45BCAB15FEA19D008C990E /* Products */;
+					ProjectRef = AE45BCAA15FEA19D008C990E /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AE45BC6715FE9F54008C990E /* RossMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AE45BCB615FEA19E008C990E /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = AE45BCB515FEA19E008C990E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE45BCB815FEA19E008C990E /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = AE45BCB715FEA19E008C990E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE45BCBA15FEA19E008C990E /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = AE45BCB915FEA19E008C990E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE45BCBC15FEA19E008C990E /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = AE45BCBB15FEA19E008C990E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE45BCBE15FEA19E008C990E /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = AE45BCBD15FEA19E008C990E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE45BC6615FE9F54008C990E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE45BC7715FE9F55008C990E /* InfoPlist.strings in Resources */,
+				AE45BCA615FEA119008C990E /* first.png in Resources */,
+				AE45BCA715FEA119008C990E /* first@2x.png in Resources */,
+				AE45BCA815FEA119008C990E /* second.png in Resources */,
+				AE45BCA915FEA119008C990E /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE45BC6415FE9F54008C990E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE45BCD415FEA327008C990E /* MBProgressHUD.m in Sources */,
+				AE45BC7915FE9F55008C990E /* main.m in Sources */,
+				AE45BC7D15FE9F55008C990E /* AppDelegate.m in Sources */,
+				AE45BD2315FEA93D008C990E /* WallViewController.m in Sources */,
+				AE45BD2815FEA97E008C990E /* MapViewController.m in Sources */,
+				AE45BD2C15FEA9D5008C990E /* VirtualFashionViewController.m in Sources */,
+				AE45BD3015FEAA2A008C990E /* PromotionsTableViewController.m in Sources */,
+				AE45BD3415FEAA68008C990E /* LoggedAreaViewController.m in Sources */,
+				AE45BD5315FEB74B008C990E /* RossmanAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE45BCC015FEA1EB008C990E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = AE45BCBF15FEA1EB008C990E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE45BC7515FE9F55008C990E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE45BC7615FE9F55008C990E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE45BC9215FE9F55008C990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE45BC9315FE9F55008C990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE45BC9515FE9F55008C990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RossMobile/RossMobile-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				INFOPLIST_FILE = "RossMobile/RossMobile-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE45BC9615FE9F55008C990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RossMobile/RossMobile-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				INFOPLIST_FILE = "RossMobile/RossMobile-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE45BC6215FE9F54008C990E /* Build configuration list for PBXProject "RossMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE45BC9215FE9F55008C990E /* Debug */,
+				AE45BC9315FE9F55008C990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE45BC9415FE9F55008C990E /* Build configuration list for PBXNativeTarget "RossMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE45BC9515FE9F55008C990E /* Debug */,
+				AE45BC9615FE9F55008C990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE45BC5F15FE9F54008C990E /* Project object */;
+}

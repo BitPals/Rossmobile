@@ -1,0 +1,6 @@
+[submodule "RossMobile/Frameworks/RestKit"]
+	path = RossMobile/Frameworks/RestKit
+	url = https://github.com/rossmobileTeam/RestKit.git
+[submodule "RossMobile/Frameworks/MBProgressHUD"]
+	path = RossMobile/Frameworks/MBProgressHUD
+	url = https://github.com/rossmobileTeam/MBProgressHUD.git
